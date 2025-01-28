@@ -1,0 +1,26 @@
+AddDefaultCharset UTF-8
+RewriteEngine On
+
+# Если запрашиваемая в URL директория или файл существуют обращаемся к ним напрямую
+RewriteCond %{REQUEST_URI} !\.(js|less|css|jpg|jpeg|gif|png|svg|ttf|eot|otf|woff|woff2|txt)$ [or]
+RewriteCond %{REQUEST_URI} apple-touch-icon\.png$ [or]
+RewriteCond %{REQUEST_METHOD} ^(POST|PUT|GET|COPY|MOVE|DELETE|PROPFIND|OPTIONS|MKCOL)$ [or]
+RewriteCond %{HTTP:Translate} ^.+$ [or]
+RewriteCond %{HTTP_USER_AGENT} ^(DavClnt|litmus|gvfs|davfs|wdfs|WebDAV|cadaver|Cyberduck)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_URI} !robots-main.txt
+RewriteCond %{REQUEST_URI} !sitemap.xml
+RewriteCond %{REQUEST_URI} !/base/vendor/font-awesome/fonts/fontawesome-webfont.woff2
+RewriteCond %{REQUEST_URI} !/base/vendor/font-awesome/fonts/fontawesome-webfont.woff
+RewriteCond %{REQUEST_URI} !/base/vendor/font-awesome/fonts/fontawesome-webfont.ttf
+RewriteCond %{REQUEST_URI} !/js/tinymce/skins/lightgray/fonts/icomoon.woff
+RewriteCond %{REQUEST_URI} !/js/tinymce/skins/lightgray/fonts/icomoon.ttf
+
+# Если нет - перенаправляем запрос на index.php
+RewriteRule ^(.*)$ index.php [L,QSA]
+
+php_value max_file_uploads 100
+php_value session.gc_maxlifetime 1080000
+php_value session.cookie_lifetime 1080000

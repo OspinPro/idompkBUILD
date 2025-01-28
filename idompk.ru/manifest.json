@@ -1,0 +1,20 @@
+{
+  "short_name": "IdomPK",
+  "name": "Строительство домов под ключ в Москве и Подмосковье",
+  "icons": [
+    {
+      "src": "/img/icons/logo-manifest.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/icons/logo-manifest-big.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#e2e7ed",
+  "display": "standalone",
+  "theme_color": "#e2e7ed"
+}

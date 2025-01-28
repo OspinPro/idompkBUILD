@@ -1,0 +1,528 @@
+@font-face {
+  font-display: swap;
+  font-family: 'PT Sans';
+  src: url('../fonts/PTSans-Bold.eot');
+  src: url('../fonts/PTSans-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/PTSans-Bold.woff2') format('woff2'),
+  url('../fonts/PTSans-Bold.woff') format('woff'),
+  url('../fonts/PTSans-Bold.ttf') format('truetype'),
+  url('../fonts/PTSans-Bold.svg#PTSans-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'PT Sans';
+  src: url('../fonts/PTSans-Regular.eot');
+  src: url('../fonts/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/PTSans-Regular.woff2') format('woff2'),
+  url('../fonts/PTSans-Regular.woff') format('woff'),
+  url('../fonts/PTSans-Regular.ttf') format('truetype'),
+  url('../fonts/PTSans-Regular.svg#PTSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-display: swap;
+  font-family: 'idompk';
+  src:  url('../fonts/idompk.eot');
+  src:  url('../fonts/idompk.eot#iefix') format('embedded-opentype'),
+  url('../fonts/idompk.ttf') format('truetype'),
+  url('../fonts/idompk.woff') format('woff'),
+  url('../fonts/idompk.svg#idompk') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-display: swap;
+  font-family: 'idompk-2';
+  src:  url('../fonts/idompk-2.eot');
+  src:  url('../fonts/idompk-2.eot#iefix') format('embedded-opentype'),
+  url('../fonts/idompk-2.ttf') format('truetype'),
+  url('../fonts/idompk-2.woff') format('woff'),
+  url('../fonts/idompk-2.svg#idompk-2') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+i.idom_icon {
+  font-family: 'idompk' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.idom_icon-compare:before {
+  content: "\e93c";
+}
+.idom_icon-heart:before {
+  content: "\e93d";
+}
+.idom_icon-cash:before {
+  content: "\e901";
+}
+.idom_icon-facebook:before {
+  content: "\e902";
+}
+.idom_icon-instagram:before {
+  content: "\e903";
+}
+.idom_icon-MasterCard .path1:before {
+  content: "\e904";
+  color: rgb(251, 178, 49);
+}
+.idom_icon-MasterCard .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(236, 28, 46);
+}
+.idom_icon-MasterCard .path3:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(251, 178, 49);
+}
+.idom_icon-MasterCard .path4:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(251, 178, 49);
+}
+.idom_icon-MasterCard .path5:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(251, 178, 49);
+}
+.idom_icon-MasterCard .path6:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(251, 178, 49);
+}
+.idom_icon-MasterCard .path7:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(251, 178, 49);
+}
+.idom_icon-MasterCard .path8:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(251, 178, 49);
+}
+.idom_icon-MasterCard .path9:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(251, 178, 49);
+}
+.idom_icon-MasterCard .path10:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(251, 178, 49);
+}
+.idom_icon-MasterCard .path11:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(251, 178, 49);
+}
+.idom_icon-MasterCard .path12:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(251, 178, 49);
+}
+.idom_icon-MasterCard .path13:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(251, 178, 49);
+}
+.idom_icon-MasterCard .path14:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(251, 178, 49);
+}
+.idom_icon-MasterCard .path15:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path16:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path17:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path18:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path19:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(251, 178, 49);
+}
+.idom_icon-MasterCard .path20:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path21:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(236, 28, 46);
+}
+.idom_icon-MasterCard .path22:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path23:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path24:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path25:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path26:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path27:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path28:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path29:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path30:before {
+  content: "\e921";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path31:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path32:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path33:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path34:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path35:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path36:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path37:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path38:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path39:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(251, 178, 49);
+}
+.idom_icon-MasterCard .path40:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path41:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path42:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path43:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path44:before {
+  content: "\e92f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path45:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-MasterCard .path46:before {
+  content: "\e931";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.idom_icon-pp .path1:before {
+  content: "\e932";
+  color: rgb(38, 59, 128);
+}
+.idom_icon-pp .path2:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: rgb(19, 154, 214);
+}
+.idom_icon-pp .path3:before {
+  content: "\e934";
+  margin-left: -1em;
+  color: rgb(35, 44, 101);
+}
+.idom_icon-sberbank:before {
+  content: "\e935";
+}
+.idom_icon-Visa:before {
+  content: "\e936";
+  color: #fff;
+}
+.idom_icon-vk:before {
+  content: "\e937";
+}
+.idom_icon-wu .path1:before {
+  content: "\e938";
+  color: rgb(255, 199, 21);
+}
+.idom_icon-wu .path2:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(68, 66, 62);
+}
+.idom_icon-wu .path3:before {
+  content: "\e93a";
+  margin-left: -1em;
+  color: rgb(68, 66, 62);
+}
+.idom_icon-wu .path4:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: rgb(68, 66, 62);
+}
+.idom_icon-sq .path1:before {
+  content: "\e974";
+  color: rgb(42, 134, 200);
+}
+.idom_icon-sq .path2:before {
+  content: "\e975";
+  margin-left: -1.2919921875em;
+  color: rgb(41, 134, 200);
+}
+.idom_icon-sq-less .path1:before {
+  content: "\e972";
+  color: rgb(203, 208, 215);
+}
+.idom_icon-sq-less .path2:before {
+  content: "\e973";
+  margin-left: -1.2919921875em;
+  color: rgb(41, 134, 200);
+}
+.idom_icon-ask:before {
+  content: "\e966";
+}
+.idom_icon-beadroom:before {
+  content: "\e967";
+  color: #2986c8;
+}
+.idom_icon-coob .path1:before {
+  content: "\e968";
+  color: rgb(0, 171, 147);
+}
+.idom_icon-coob .path2:before {
+  content: "\e969";
+  margin-left: -0.900390625em;
+  color: rgb(0, 171, 147);
+}
+.idom_icon-coob .path3:before {
+  content: "\e96a";
+  margin-left: -0.900390625em;
+  color: rgb(62, 76, 112);
+}
+.idom_icon-coob .path4:before {
+  content: "\e96b";
+  margin-left: -0.900390625em;
+  color: rgb(62, 76, 112);
+}
+.idom_icon-coob .path5:before {
+  content: "\e96c";
+  margin-left: -0.900390625em;
+  color: rgb(62, 76, 112);
+}
+.idom_icon-letter:before {
+  content: "\e96d";
+  color: #cad0d7;
+}
+.idom_icon-miracle:before {
+  content: "\e96e";
+  color: #cad0d7;
+}
+.idom_icon-pool:before {
+  content: "\e96f";
+  color: #2986c8;
+}
+.idom_icon-print:before {
+  content: "\e970";
+  color: #cad0d7;
+}
+.idom_icon-size:before {
+  content: "\e971";
+  color: #0087ca;
+}
+.idom_icon-zoom:before {
+  content: "\e963";
+  color: #fff;
+}
+.idom_icon-prize:before {
+  content: "\e900";
+  color: #c8d1d7;
+}
+.idom_icon-cheveron-down:before {
+  content: "\e964";
+}
+.idom_icon-cheveron-up:before {
+  content: "\e965";
+}
+.idom_icon-close:before {
+  content: "\e976";
+}
+.idom_icon-close-outline:before {
+  content: "\e93e";
+}
+.idom_icon-star-full:before {
+  content: "\e95a";
+}
+
+
+.idom_icon-2 {
+  font-family: 'idompk-2' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.idom_icon-2-message:before {
+  content: "\e916";
+}
+.idom_icon-2-phone-in:before {
+  content: "\e917";
+}
+.idom_icon-2-whatsapp:before {
+  content: "\e918";
+}
+.idom_icon-2-mirror:before {
+  content: "\e900";
+}
+.idom_icon-2-help-circle:before {
+  content: "\e901";
+}
+.idom_icon-2-check-circle:before {
+  content: "\e902";
+}
+.idom_icon-2-printer:before {
+  content: "\e903";
+}
+.idom_icon-2-close-circle:before {
+  content: "\e904";
+}
+.idom_icon-2-phone-call:before {
+  content: "\e905";
+}
+.idom_icon-2-arrow-left:before {
+  content: "\e906";
+}
+.idom_icon-2-chevron-left:before {
+  content: "\e907";
+}
+.idom_icon-2-calendar:before {
+  content: "\e908";
+}
+.idom_icon-2-menu:before {
+  content: "\e909";
+}
+.idom_icon-2-search:before {
+  content: "\e90a";
+}
+.idom_icon-2-close:before {
+  content: "\e90b";
+}
+.idom_icon-2-bed:before {
+  content: "\e912";
+}
+.idom_icon-2-car:before {
+  content: "\e913";
+}
+.idom_icon-2-floor:before {
+  content: "\e914";
+}
+.idom_icon-2-wc:before {
+  content: "\e915";
+}
+.idom_icon-2-facebook:before {
+  content: "\e90c";
+}
+.idom_icon-2-instagram:before {
+  content: "\e90d";
+}
+.idom_icon-2-vk:before {
+  content: "\e90e";
+}
+.idom_icon-2-download:before {
+  content: "\e90f";
+}
+.idom_icon-2-compare:before {
+  content: "\e910";
+}
+.idom_icon-2-favorite:before {
+  content: "\e911";
+}

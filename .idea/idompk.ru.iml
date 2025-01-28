@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/_idompk.ru/vendor/ezyang/htmlpurifier" />
+      <excludeFolder url="file://$MODULE_DIR$/_idompk.ru/vendor/yiisoft/yii2-codeception" />
+      <excludeFolder url="file://$MODULE_DIR$/_idompk.ru/vendor/yiisoft/yii2-composer" />
+      <excludeFolder url="file://$MODULE_DIR$/_idompk.ru/vendor/bower/jquery" />
+      <excludeFolder url="file://$MODULE_DIR$/_idompk.ru/vendor/bower/punycode" />
+      <excludeFolder url="file://$MODULE_DIR$/_idompk.ru/vendor/yiisoft/yii2-debug" />
+      <excludeFolder url="file://$MODULE_DIR$/_idompk.ru/vendor/bower/yii2-pjax" />
+      <excludeFolder url="file://$MODULE_DIR$/_idompk.ru/vendor/yiisoft/yii2-faker" />
+      <excludeFolder url="file://$MODULE_DIR$/_idompk.ru/vendor/bower/bootstrap" />
+      <excludeFolder url="file://$MODULE_DIR$/_idompk.ru/vendor/yiisoft/yii2-gii" />
+      <excludeFolder url="file://$MODULE_DIR$/_idompk.ru/vendor/yiisoft/yii2-swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/_idompk.ru/vendor/yiisoft/yii2-bootstrap" />
+      <excludeFolder url="file://$MODULE_DIR$/_idompk.ru/vendor/bower/jquery.inputmask" />
+      <excludeFolder url="file://$MODULE_DIR$/_idompk.ru/vendor/cebe/markdown" />
+      <excludeFolder url="file://$MODULE_DIR$/_idompk.ru/vendor/yiisoft/yii2" />
+      <excludeFolder url="file://$MODULE_DIR$/_idompk.ru/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/_idompk.ru/vendor/phpspec/php-diff" />
+      <excludeFolder url="file://$MODULE_DIR$/_idompk.ru/vendor/himiklab/yii2-recaptcha-widget" />
+      <excludeFolder url="file://$MODULE_DIR$/_idompk.ru/vendor/mpdf/mpdf" />
+      <excludeFolder url="file://$MODULE_DIR$/_idompk.ru/vendor/bower/typeahead.js" />
+      <excludeFolder url="file://$MODULE_DIR$/_idompk.ru/vendor/fzaninotto/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/_idompk.ru/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/_idompk.ru/vendor/corpsepk/yml" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
